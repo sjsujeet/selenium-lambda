@@ -16,3 +16,5 @@ mkdir -p "/opt/chrome-driver"
 curl -Lo $download_path_chrome_driver_linux $latest_chrome_driver_linux_download_url
 unzip -q $download_path_chrome_driver_linux -d "/opt/chrome-driver"
 rm -rf $download_path_chrome_driver_linux
+
+
